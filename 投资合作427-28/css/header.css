@@ -1,0 +1,74 @@
+/* 头部开始 */
+#head{
+    width: 100%;
+    background: #ffffff;
+}
+#head .head_content{
+    width: 1200px;
+    height: 110px;
+    position: relative;
+    left: 50%;
+    margin-left: -600px;
+}
+.head_logo{
+    width: 175px;
+    height: 70px;
+    padding-top: 25px;
+    display: inline-block
+}
+.head_content>ul{
+    width: 700px;
+    height: 30px;
+    display: flex;
+    justify-content:space-between;
+    float: right;
+    margin-top: 50px;
+    position: relative;
+    z-index: 10000;
+}
+.head_content>ul>li{
+    /* width:80px; */
+    list-style: disc;
+    cursor: pointer;
+    text-align: center;
+}
+.head_content>ul>li>p{
+    height: 30px;
+    font-size: 16px;
+    color: #b01f24;
+    font-weight: 600;
+    margin: 0 8px;
+}
+.head_content>ul>li:hover>p{
+    color: #000000 !important;
+    border-bottom: 1px solid #b01f24;
+}
+.head_content>ul>li:hover .head_list{
+    display: block;
+}
+.head_change{
+    color: #000000 !important;
+    border-bottom: 1px solid #b01f24;
+}
+.head_list{
+    width: 80px;
+    color: #7d7d7d;
+    padding-left: 40px;
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    z-index: 5000;
+}
+.head_list>li{
+    list-style-type:circle;
+    list-style: disc;
+    height: 34px;
+    margin-top: 20px;
+    border-bottom: 1px solid #b01f24;
+    text-align: center;
+    font-size: 16px;
+}
+.head_list>li:hover{
+    color: #000000;
+    font-weight: 600;
+}
