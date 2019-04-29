@@ -1,0 +1,50 @@
+#main .saki_choose{
+    width: 100%;
+}
+#main .choose_img{
+    width: 100%;
+    min-width: 1200px;
+}
+@media(max-width:1200px){
+    #main .choose_img{
+        position: relative;
+        left: 50%;
+        margin-left: -600px;
+    }
+}
+#main .choose_title{
+    width: 100%;
+    height: 215px;
+    background: url(../images/choose.png) no-repeat center;
+    position: relative;
+    top: -45px;
+}
+#main .choose_title>p{
+    width: 430px;
+    height: 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 138px;
+    left: 50%;
+    margin-left: -215px;
+    text-align: center;
+}
+#main .choose_con{
+    width: 1200px;
+    position: relative;
+    left: 50%;
+    margin-left: -600px;
+    display: flex;
+    justify-content:center;
+}
+#main .choose_con>p,#main .choose_con>span{
+    height: 38px;
+    font-size: 20px;
+    margin :0 5px;
+    color: #b01f24;
+    cursor: pointer;
+}
+.choose_change{
+    color: #292929 !important;
+    border-bottom: 1px solid #b01f24;
+}
